@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include madkour_filling_request *.css
+recursive-include madkour_filling_request *.csv
+recursive-include madkour_filling_request *.html
+recursive-include madkour_filling_request *.ico
+recursive-include madkour_filling_request *.js
+recursive-include madkour_filling_request *.json
+recursive-include madkour_filling_request *.md
+recursive-include madkour_filling_request *.png
+recursive-include madkour_filling_request *.py
+recursive-include madkour_filling_request *.svg
+recursive-include madkour_filling_request *.txt
+recursive-exclude madkour_filling_request *.pyc
