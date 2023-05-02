@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "FR-.####",
+ "creation": "2023-05-02 09:18:41.367315",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "address",
+  "download_file",
+  "column_break_aofq",
+  "mobile_number",
+  "unit_title",
+  "column_break_blly",
+  "project_name",
+  "received_name",
+  "column_break_erpa",
+  "received_national_id",
+  "received_phone_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "download_file",
+   "fieldtype": "Button",
+   "label": "Download File"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "unit_title",
+   "fieldtype": "Data",
+   "label": "Unit Title"
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name"
+  },
+  {
+   "fieldname": "received_name",
+   "fieldtype": "Data",
+   "label": "Received Name"
+  },
+  {
+   "fieldname": "received_national_id",
+   "fieldtype": "Data",
+   "label": "Received National ID"
+  },
+  {
+   "fieldname": "received_phone_number",
+   "fieldtype": "Data",
+   "label": "Received Phone Number"
+  },
+  {
+   "fieldname": "column_break_aofq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_blly",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_erpa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-02 09:49:54.185819",
+ "modified_by": "Administrator",
+ "module": "Madkour Filling Request",
+ "name": "Filling Request",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
